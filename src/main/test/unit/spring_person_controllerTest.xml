@@ -1,0 +1,6 @@
+<beans xmlns="http://www.springframework.org/schema/beans">
+
+    <bean id="personService" name="personService" class="org.mockito.Mockito" factory-method="mock">
+        <constructor-arg value="com.wilcage.springtest.PersonService"/>
+    </bean>
+</beans>
